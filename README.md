@@ -1,1 +1,48 @@
 # assessment-2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="colour.css">
+</head>
+<body>
+    <header>
+        <h1>Shop Easy</h1>
+        <p>Welcome to Shop Easy!</p>
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="search" placeholder="Search for products...">
+        <button>CART</button>
+    </header>
+    <hr>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div>
+        <h2>Featured Products</h2>
+        <h2>Soft Drink</h2>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/3819969/pexels-photo-3819969.jpeg?cs=srgb&dl=pexels-olenkabohovyk-3819969.jpg&fm=jpg" alt="Product 1" height="200" width="200">
+            <h3>Product 1</h3>
+            <p>$11.22</p>
+            <p>Refreshment Drink</p>
+            <button>Add to Cart</button>
+        
+        
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-madebymath-90946.jpg&fm=jpg" alt="Product 2" height="200" width="250">
+            <h3> Samsung sensors </h3>
+            <p>$99.99</p>
+            <p>1000mp samsung sensor</p>
+            <button>Add to Cart</button>
+        </div>
+        <badge>New</badge>
+        
+</body>
+</html>
